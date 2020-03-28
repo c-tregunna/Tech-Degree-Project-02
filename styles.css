@@ -13,9 +13,8 @@ body {
    display: inline;
 }
 
-.main-nav ul {
+.main-nav li {
 	float: right;
-	padding: 10px;
 }
 
 nav ul {
@@ -24,4 +23,5 @@ nav ul {
 
 a:link {
 	text-decoration: none;
+	color: black;
 }
