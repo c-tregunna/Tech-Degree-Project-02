@@ -11,5 +11,7 @@ body {
 .main-nav li {
 	list-style-type: none;
 	text-decoration: none;
+	float: right;
+	display: inline-block;
 }
  
