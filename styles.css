@@ -13,7 +13,7 @@ body {
    display: inline;
 }
 
-.main-nav li {
+.main-nav ul {
 	float: right;
 	padding: 10px;
 }
