@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
-h1 {
-	color: purple;
+body {
+	background-color: #dcdcdc;
+	font-family: 'Josefin Sans', sans-serif;
 }
+
+.main-nav li {
+	list-style-type: none;
+	text-decoration: none;
+}
+ 
