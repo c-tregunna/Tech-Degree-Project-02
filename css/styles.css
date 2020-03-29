@@ -1,1 +1,14 @@
 /* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #878787;
+  background-color: #dcdcdc;
+  font: 1em/1.5 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
+/* mobile first styles */
