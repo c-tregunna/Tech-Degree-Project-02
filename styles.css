@@ -15,15 +15,17 @@ nav ul {
 }
 
 header {
-	border-bottom: 2px solid black;
-	/*height: 200px;*/
+/*	border-bottom: 2px solid black;
+*/	/*height: 200px;*/
 	padding: 30px;
+	margin-bottom: 20px;
 }
 
 .name {
 	display: inline;
 	float: left;
 	font-size: 2.25em;
+	padding-left: 30px;
 }
 
 .main-nav ul {
@@ -40,3 +42,22 @@ a:link {
 	text-decoration: none;
 	color: black;
 }
+
+.intro {
+	width: 60%;
+	font-size: 1.25em;
+}
+
+.intro p {
+	margin: 60px;
+}
+
+.profile-img {
+	float: right;
+	margin-right: 60px;
+}
+
+
+
+
+
