@@ -12,3 +12,20 @@ body {
 }
 
 /* mobile first styles */
+h1 {
+	font-size: 2.25em;
+	padding: 30px;
+	border: 2px solid;
+	text-align: center;
+}
+
+.main-nav ul {
+	border: 2px solid;
+	text-align: center;
+	}
+
+.main-nav li {
+	padding: 8px 0;
+	font-size: 1.625em;
+	background-color: #fff;
+}
