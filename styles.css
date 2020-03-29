@@ -8,17 +8,23 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.main-nav h1,
+nav ul {
+	list-style-type: none;
+}
+
+.name {
+	display: inline;
+	border: 1px solid black;
+}
+
 .main-nav ul {
-   display: inline;
+   float: right;
+   border: 1px solid black;
 }
 
 .main-nav li {
-	float: right;
-}
-
-nav ul {
-	list-style-type: none;
+   display: inline;
+   padding-right: 30px;
 }
 
 a:link {
