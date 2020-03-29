@@ -1,6 +1,8 @@
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,19 +14,26 @@ nav ul {
 	list-style-type: none;
 }
 
+header {
+	border-bottom: 2px solid black;
+	/*height: 200px;*/
+	padding: 30px;
+}
+
 .name {
 	display: inline;
-	border: 1px solid black;
+	float: left;
+	font-size: 2.25em;
 }
 
 .main-nav ul {
    float: right;
-   border: 1px solid black;
 }
 
 .main-nav li {
    display: inline;
    padding-right: 30px;
+   font-size: 1.625em;
 }
 
 a:link {
