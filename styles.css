@@ -43,21 +43,52 @@ a:link {
 	color: black;
 }
 
-.intro {
-	width: 60%;
-	font-size: 1.25em;
+.top {
+	width:100%;
+	padding: 30px;
 }
 
-.intro p {
-	margin: 60px;
+.intro,
+.profile-img {
+	width: 46.5%;
 }
 
 .profile-img {
 	float: right;
-	margin-right: 60px;
+}
+
+.top-img {
+	float: right;
+	margin-right: 30px;
+}
+
+.intro {
+	float: left;
+}
+
+.intro p {
+	margin: 30px;
+	font-size: 1.25em;
+
+}
+
+
+footer {
+	border-top: 2px dotted black;
+	height: 100px;
 }
 
 
 
 
 
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
