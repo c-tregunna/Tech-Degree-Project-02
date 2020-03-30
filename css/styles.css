@@ -6,8 +6,8 @@
 }
 
 body {
-  color: #878787;
-  background-color: #dcdcdc;
+  color: black;
+  background-color: #ddd;
   font: 1em/1.5 'Josefin Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -15,8 +15,8 @@ body {
 h1 {
 	font-size: 2.25em;
 	padding: 30px;
-	border: 2px solid;
 	text-align: center;
+	color: black;
 }
 
 nav ul {
@@ -32,12 +32,35 @@ nav ul {
 .main-nav li {
 	padding: 4px 0;
 	margin: 5px 0;
-	font-size: 1.625em;
+	font-size: 1.25em;
 	background-color: #fff;
+}
+
+.top {
+	width:90%;
+	margin: 20px auto;
+}
+
+.top img {
+	display: block;
+	margin: 20px auto;
+	box-shadow: 1px 1px 10px #999;
+}
+
+.intro {
+	line-height: 1.5;
+	font-size: 1.125em;
+	text-align: center;
+	font-weight: 300;
 }
 
 /* link styles */
 
 a:link {
 	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
 }
