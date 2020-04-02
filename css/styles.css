@@ -9,10 +9,6 @@ body {
   font: 1em/1.5 'Josefin Sans', Helvetica, Arial, sans-serif;
 }
 
-/* mobile first styles */
-
-/* Navigation */
-
 h1 {
 	font-size: 2.25em;
 	padding: 30px;
@@ -20,6 +16,32 @@ h1 {
 	color: black;
 	font-family: 'Neucha', cursive;
 }
+
+h2 {
+	font-size: 2em;
+	padding: 30px;
+	text-align: center;
+	color: black;
+	font-family: 'Neucha', cursive;
+}
+
+h3 {
+	font-size: 1.5em;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-family: 'Neucha', cursive
+}
+
+img {
+	border: 1px solid #999;
+	box-shadow: 0 6px 10px #999;
+}
+
+
+/* mobile first styles */
+
+/* Navigation */
 
 nav ul {
 	list-style-type: none;
@@ -49,8 +71,6 @@ nav ul {
 .top img {
 	display: block;
 	margin: 20px auto;
-	box-shadow: 0 6px 10px #999;
-	border: 1px solid #999;
 }
 
 .intro {
@@ -58,6 +78,53 @@ nav ul {
 	font-size: 1.125em;
 	text-align: center;
 	font-weight: 300;
+}
+
+/* main block*/
+
+.wrapper {
+	background: white;
+	width: 100%;
+	padding: 20px;
+}
+
+.block {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.block-img {
+	width: 100%;
+}
+
+/* Footer */
+
+.contact {
+	text-align: center;
+	padding: 0 20px;
+}
+
+.contact-info {
+	font-weight: bold;
+}
+
+footer {
+	width: 90%;
+	margin: auto;
+	border-top: 1px solid #ccc;
+}
+
+.footer-name {
+	float: left;
+}
+
+.footer-back {
+	float: right;
+	text-transform: uppercase;
+}
+
+.footer-nav {
+	display: none;
 }
 
 /* link styles */
@@ -81,30 +148,78 @@ a:hover {
 media queries 
 ------------------*/
 
+
 @media (min-width:768px) {
+
+  .container {
+	width: 90%;
+	margin: 0 auto;
+	}
+
+  h1 {
+    text-align: center;
+    padding: 0;
+  }
+  .main-nav li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: transparent;
+  }
+
+  .top-img {
+  	display: inline;
+  	float: right;
+  }
+
+  .intro {
+  	float: left;
+  	width: 50%;
+  }
+
+  .block {
+  	float: left;
+  	width: 50%;
+  	padding: 0 20px;
+  }
+
+  .footer-back {
+  	display: none;
+  }
+
+  .footer-nav {
+  	float: right;
+  	display: inline-block;
+  }
+
+  .footer-nav li {
+  	float: left;
+  	margin: 30px 20px;
+  }
+}
+
+
+@media (min-width:1024px) {
+
+	.block {
+		width: 33%;
+	}
 
 	h1 {
 		float: left;
 		display: inline;
 	}
-    .main-nav {		
-      float: right;
-    }
 
-    .main-nav ul {
-    	float: right;
-    }
-  
-   .main-nav li {
-      float: left;
-      display: inline;
-      }   
+	.main-nav {
+		float: right;
+		display: inline;
+		width: 30%;
+		margin-top: 30px;
+	}
 
-}
-
-@media (min-width:1024px) {
-
-	
+	.main-nav li {
+    	float: left;
+    	padding: 0 10px;
+  }
 }
 
 
@@ -115,17 +230,3 @@ media queries
 		display: table;
 		clear: both;
 	}
-
-}
-
-/*  .main-nav {			top-tips for floating nav correctly
-    float: right;
-  }
-
-  .main-nav li {
-    float: left;
-  }
-
-  .name {
-    float: left;
-  }*/
