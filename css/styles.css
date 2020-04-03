@@ -97,6 +97,10 @@ nav ul {
 	width: 100%;
 }
 
+.block p {
+	text-align: center;
+}
+
 /* Footer */
 
 .contact {
@@ -140,6 +144,8 @@ a:visited {
 
 a:hover {
 	color: #5ECF80;
+	transition: all .5s;
+	border-bottom: 1px solid;
 }
 
 
@@ -169,7 +175,7 @@ media queries
   .top-img {
   	display: inline;
   	float: right;
-  	width: 40%;
+  	width: 45%;
   }
 
   .intro {
