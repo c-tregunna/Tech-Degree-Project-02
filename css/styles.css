@@ -169,11 +169,13 @@ media queries
   .top-img {
   	display: inline;
   	float: right;
+  	width: 40%;
   }
 
   .intro {
   	float: left;
   	width: 50%;
+  	text-align: left;
   }
 
   .block {
@@ -212,13 +214,18 @@ media queries
 	.main-nav {
 		float: right;
 		display: inline;
-		width: 30%;
+		width: 40%;
 		margin-top: 30px;
+		border: 1px solid;
 	}
 
 	.main-nav li {
     	float: left;
     	padding: 0 10px;
+  }
+
+  .contact p {
+  	font-size: 1.25em;
   }
 }
 
