@@ -21,7 +21,7 @@ h2 {
 	font-size: 2em;
 	padding: 30px;
 	text-align: center;
-	color: black;
+	color: #555;
 	font-family: 'Neucha', cursive;
 }
 
@@ -36,6 +36,10 @@ h3 {
 img {
 	border: 1px solid #999;
 	box-shadow: 0 6px 10px #999;
+}
+
+.contact h2 {
+	color: black;
 }
 
 
@@ -219,15 +223,17 @@ media queries
 
 	.main-nav {
 		float: right;
-		display: inline;
-		width: 40%;
+		display: inline-block;
+		width: 272px;
 		margin-top: 30px;
-		border: 1px solid;
+		float: right;
+		padding-right: 0;
 	}
+
 
 	.main-nav li {
     	float: left;
-    	padding: 0 10px;
+    	/*padding: 0 10px;*/
   }
 
   .contact p {
