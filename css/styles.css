@@ -105,6 +105,16 @@ nav ul {
 	text-align: center;
 }
 
+aside {
+	width: 100%;
+	margin: auto;
+	background-color: #eee;
+	text-align: center;
+	padding: 20px 50px;
+	box-shadow: inset 4px 4px 10px #aaa,
+				inset -4px -4px 10px #aaa;
+}
+
 /* Footer */
 
 .contact {
