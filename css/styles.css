@@ -81,7 +81,7 @@ nav ul {
 .top img {
 	display: block;
 	margin: 20px auto;
-	width: 100%;
+	width: 100%;  /** this made the rest of content center **/
 }
 
 .intro {
