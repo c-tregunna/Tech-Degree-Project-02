@@ -95,6 +95,7 @@ nav ul {
 
 .wrapper {
 	background: white;
+	/* background: radial-gradient(#fff, #fffec8); */
 	width: 100%;
 	padding: 20px;
 }
@@ -193,7 +194,7 @@ media queries
     background-color: transparent;
   }
 
-  .top-img {
+  .profile-img {
   	display: inline;
   	float: right;
   	width: 45%;
